@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  margin: 0px;
+}
+
+.header,
+.footer,
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 25%;
+}
+
+.header {
+  font-size: 16px;
+  height: 75px;
+}
+
+.footer {
+  height: 55px;
+  text-align: center;
+}
+
+.hero {
+  height: 25%;
+  padding: 15% 10%;
+  flex-direction: row;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #3882f6;
+  color: white;
+  padding: 8px 24px;
+  max-width: 100px;
+  height: 35px;
+}
+
+.information,
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  gap: 20px;
+  padding: 16px;
+  background: #ffffff;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  height: 25%;
+}
+
+.information-card-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.information-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 0;
+  color: #272727;
+  font-size: 12px;
+  width: 150px;
+  text-align: center;
+}
+
+.information-card > img {
+  border-radius: 25px;
+  border: 4px solid #3882f6;
+}
+
+.testimonials {
+  gap: 20px;
+  padding: 55px;
+  background: #e5e7eb;
+  height: 65%;
+}
+
+.testimonials > p {
+  width: 60%;
+  height: auto;
+}
+
+.quote-text {
+  text-align: justify;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 250px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #3882f6;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  gap: 32px;
+  padding: 25px 15%;
+}
+
+.popup-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup > button {
+  border-radius: 10px;
+  border: 2px solid white;
+  flex-shrink: 0;
+}
